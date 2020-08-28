@@ -5,7 +5,8 @@ Statistics is voodoo with numbers. Like any magic spell in a story, if you don�
 
 What this document doesn’t do is try to teach statistical theory. Reading a textbook like “Discovering Statistics Using IBM SPSS Statistics” by Andy Field for example is an excellent, readable guide with practical examples. This document also doesn’t describe specific tools to use to accomplish the task. Technical computing languages like R, Julia, or Python are great choices.
 
-Important general points:
+Important general points
+------------------------
 - Statistical tests provide **guidelines** for your conclusions, not binary truth
     - p = 0.051 and p = 0.049 is not the difference between real and false
 - Measure and report effect sizes
@@ -17,7 +18,8 @@ Important general points:
 - Don’t reverse your decisions based on effects on statistical tests
 - Large sample sizes can lead to significant normality tests with small effect sizes
 
-Contents:
+Contents
+--------
 - [General Methods](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/General%20Methods.md)
 - Linear Regression
 - 1-Factor Analysis of Variance (ANOVA)
