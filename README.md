@@ -16,3 +16,13 @@ Important general points:
 - After adopting a solution, start analysis again with that solution in mind
 - Don’t reverse your decisions based on effects on statistical tests
 - Large sample sizes can lead to significant normality tests with small effect sizes
+
+Contents:
+- [General Methods](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/General%20Methods.md)
+- Linear Regression
+- 1-Factor Analysis of Variance (ANOVA)
+- 1-Factor Analysis of Covariance (ANCOVA)
+- Factorial ANOVA
+- Repeated Measures ANOVA
+- Logistic Regression
+- Multilevel Models
