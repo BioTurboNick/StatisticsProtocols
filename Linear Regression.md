@@ -210,7 +210,7 @@ Linear Regression
     | ≤ 0.05  | Model parameter contributes         |
     | > 0.05  | Model parameter does not contribute |
 
-       - If you decide not to accept it, rerun regression without the variable (forced to 0)
+   - If you decide not to accept it, rerun regression without the variable (forced to 0)
    - Intercept (b0): the expected outcome when all predictors are 0.
    - Each coefficient (b1…): The amount the outcome changes with a unit change in this predictor.
 
