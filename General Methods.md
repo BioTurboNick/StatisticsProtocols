@@ -89,3 +89,35 @@ Options for making your data more robust to the presence of outliers:
 
 - Be careful if combining these methods
     - E.g. robust methods may trim data, and you don’t want to trim twice.
+
+Check for normality of residuals
+--------------------------------
+
+1.	Generate histogram (+ density) plot, P-P or Q-Q plot of standardized residuals
+    - Q-Q plot shows fewer points, easier to interpret with lots of data
+2.	Inspect plots for normal distribution
+    - Histogram/density – deviations from bell-shape, symmetrical
+        - Easy to misjudge, so rely more on P-P/Q-Q plot
+    - P-P/Q-Q plot – deviations from the diagonal
+        - Curve across – skew
+        - S shape – kurtosis
+        - Tails matter more than center
+3.	Calculate and interpret standardized skewness and kurtosis statistics using their respective standard errors
+
+    | Z-score | p-value |
+    |:------- |:------- |
+    | 1.96    | 0.05    |
+    | 2.58    | 0.01    |
+    | 3.29    | 0.001   |
+
+4.	For small samples (below CLT level), run Shapiro-Wilk test
+
+    | p-value | Meaning                              |
+    |:------- |:------------------------------------ |
+    | < 0.05  | Very likely not normal               |
+    | > 0.05  | May or may not be normal (low power) |
+
+    - Shapiro-Wilk has more power than Kolmogorov-Smirnov, but not as good in certain situations
+5.	If central limit theorem can be invoked, can ignore
+    - N ≥ 30 if not heavy-tailed (leptokurtic, highly skewed)
+    - N ≥ 100 or 160 if heavy-tailed
