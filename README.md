@@ -21,7 +21,7 @@ Important general points
 Contents
 --------
 - [General Methods](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/General%20Methods.md)
-- Linear Regression
+- [Linear Regression](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/Linear%20Regression.md)
 - 1-Factor Analysis of Variance (ANOVA)
 - 1-Factor Analysis of Covariance (ANCOVA)
 - Factorial ANOVA
