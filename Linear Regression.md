@@ -178,7 +178,7 @@ Linear Regression
         - DO NOT inspect significance values for model parameters when making decision
         - Hesitate before removing outliers that have small influence
    - Consider a correction method
-        - See General Methods D: Reduce impact of outliers
+        - See General Methods: Reduce impact of outliers
 3. Make note of removed values for further investigation, discussion.
 
 9: Assess model fit
