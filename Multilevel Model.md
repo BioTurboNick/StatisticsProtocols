@@ -1,5 +1,5 @@
-Multilevel Models
-=================
+Multilevel Model
+================
 
 Allows variability in regression slopes to be modeled. Allows dependence between observations to be modeled. Does not require complete data (though still strive to minimize missing data). Extremely complex and kind of confusing. Beware.
 
