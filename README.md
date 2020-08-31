@@ -5,7 +5,7 @@ Statistics is voodoo with numbers. Like any magic spell in a story, if you don�
 
 What this document doesn’t do is try to teach statistical theory. Reading a textbook like “Discovering Statistics Using IBM SPSS Statistics” by Andy Field for example is an excellent, readable guide with practical examples. This document also doesn’t currently describe specific tools to use to accomplish the task, although I'd love to add that. Free, open source technical computing languages like R, Julia, or Python are great choices, with many different packages available.
 
-**Please contribute!** This guide is my own synthesis of knowledge from several sources. But I am not a statistics expert. Please do provide input and corrections. I have placed this on GitHub to encourage modifiation and updates.
+**Please contribute!** This guide is my own synthesis of knowledge from several sources. But I am not a statistics expert. Please do provide input and corrections. I have placed this on GitHub to encourage modifiation and updates. Also, equations don't render well here. I'm looking for options to improve this.
 
 Important general points
 ------------------------
