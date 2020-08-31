@@ -29,4 +29,4 @@ Contents
 - [Factorial ANOVA](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/Factorial%20ANOVA.md)
 - [Repeated Measures ANOVA](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/Repeated%20Measures%20ANOVA.md)
 - [Logistic Regression](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/Logistic%20Regression.md) - Incomplete
-- Multilevel Models - Incomplete
+- [Multilevel Models](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/Multilevel%20Model.md) - Incomplete
