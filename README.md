@@ -26,7 +26,7 @@ Contents
 - [Linear Regression](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/Linear%20Regression.md)
 - [1-Factor Analysis of Variance (ANOVA)](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/1-Factor%20ANOVA.md)
 - [1-Factor Analysis of Covariance (ANCOVA)](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/1-Factor%20ANCOVA.md)
-- Factorial ANOVA
+- [Factorial ANOVA](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/Factorial%20ANOVA.md)
 - Repeated Measures ANOVA
 - Logistic Regression
 - Multilevel Models
