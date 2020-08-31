@@ -3,7 +3,7 @@ General Methods
 
 These are general methods that re-appear in different types of analyses.
 
-Check unusual cases
+A: Check unusual cases
 -------------------
 
 Data should be examined for points that do not conform with the rest. Outliers contribute error to the analysis and can overly influence the result.
@@ -34,7 +34,7 @@ Data should be examined for points that do not conform with the rest. Outliers c
     - If conducting ANOVA, beware removing a data point if it creates an unequal group size, as this makes the standard tests more dependent on the assumption of normality.
     - Removing points also reduces degrees of freedom and thus reduces power. Trade off of loss of power and decreased error.
 
-Inspect plot of standardized residuals and predicted values
+B: Inspect plot of standardized residuals and predicted values
 -----------------------------------------------------------
 
 Data should be examined for relationships between the residuals and predicted values to detect heteroscedasticity (and linearity, for linear regression).
@@ -51,7 +51,7 @@ Data should be examined for relationships between the residuals and predicted va
 
     - Might be able to spot non-independence, but better to use test
 
-Transform data
+C: Transform data
 --------------
 
 Adjusting the data can make an unusual distribution more normal, correct for nonlinearity, and reduce impact of outliers.
@@ -76,7 +76,7 @@ Adjusting the data can make an unusual distribution more normal, correct for non
 - Be careful: an inappropriate transformation can make things worse than not transforming at all
 - Reverse the transformation when interpreting downstream statistics.
 
-Reducing impact of outliers
+D: Reducing impact of outliers
 ---------------------------
 
 Options for making your data more robust to the presence of outliers:
@@ -90,7 +90,7 @@ Options for making your data more robust to the presence of outliers:
 - Be careful if combining these methods
     - E.g. robust methods may trim data, and you don’t want to trim twice.
 
-Check for normality of residuals
+E: Check for normality of residuals
 --------------------------------
 
 1.	Generate histogram (+ density) plot, P-P or Q-Q plot of standardized residuals
