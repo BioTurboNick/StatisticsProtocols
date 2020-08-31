@@ -29,15 +29,15 @@ Linear Regression
 ----------------------------------------------------------
 
 1. Check for unusual values within each variable
-    - See General Methods: Check unusual cases
+    - See General Methods A: Check unusual cases
 2. Generate scatterplots of each predictor vs. outcome
 3. Inspect scatterplots for linearity
     - Not useful for multivariate linearity for more than 2 predictors. Need other methods.
 4. If relationship appears nonlinear, consider a transformation and apply it
-    - See General Methods: Transform data
+    - See General Methods C: Transform data
 5. Inspect (transformed) scatterplot for outliers
 6. Make decisions about outliers
-    - See General Methods: Check unusual cases
+    - See General Methods A: Check unusual cases
 
 3: Run regression model
 -----------------------
@@ -75,7 +75,7 @@ Linear Regression
 5: Check assumptions of homoscedasticity and linearity
 ------------------------------------------------------
 
-1. See General Methods: Inspect plot of standardized residuals and predicted values
+1. See General Methods B: Inspect plot of standardized residuals and predicted values
 2. (QQ/PP plot?)
 3. If heteroscedasticity is suspected
     - Consequences:
@@ -86,19 +86,19 @@ Linear Regression
             - Weighted by a function of variance
         - Bootstrap CIs for regression
         - Apply a transformation
-            - See General Methods: Transform data (not preferred)
+            - See General Methods C: Transform data (not preferred)
 4. If nonlinearity is suspected
     - Consequences:
         - Model invalid
     - Solutions:
         - Multilevel model
         - Apply a transformation
-            - See General Methods: Transform data
+            - See General Methods C: Transform data
 
 6: Check assumption of normality
 --------------------------------
 
-1. See General Methods: Check for normality of residuals
+1. See General Methods E: Check for normality of residuals
 2. If nonnormality is suspected and central limit theorem cannot be invoked
     - Consequences:
         - CIs and significance tests invalid
