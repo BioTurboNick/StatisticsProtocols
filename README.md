@@ -24,7 +24,7 @@ Contents
 --------
 - [General Methods](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/General%20Methods.md)
 - [Linear Regression](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/Linear%20Regression.md)
-- 1-Factor Analysis of Variance (ANOVA)
+- [1-Factor Analysis of Variance (ANOVA)](https://github.com/BioTurboNick/StatisticsProtocols/blob/master/1-Factor%20ANOVA.md)
 - 1-Factor Analysis of Covariance (ANCOVA)
 - Factorial ANOVA
 - Repeated Measures ANOVA
